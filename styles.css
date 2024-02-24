@@ -5,51 +5,7 @@
 body {
     margin: 0;
 }
-        #code-container {
-
-            background-color: #000;
-
-            border: 1px solid #ccc;
-
-            padding: 10px;
-
-            margin-bottom: 20px;
-
-            position: relative;
-
-        }
-
-
-
-        #copy-button {
-
-            position: absolute;
-
-            top: 5px;
-
-            right: 5px;
-
-            cursor: pointer;
-
-            background: url('assets/copy-image.png') no-repeat;
-
-            background-size: contain;
-
-            width: 30px;
-
-            height: 30px;
-
-            border: none;
-
-        }
-
-
-
-        #code {
-
-            color: white;
-
-        }
+ 
 .video-container {
     position: relative;
     width: 560px; /* You can adjust width according to your requirement */
