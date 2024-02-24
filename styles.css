@@ -8,13 +8,14 @@ body {
 
 .video-container {
     position: relative;
-    width: 90%;
-    max-width: 1000px;
+    width: 560px; /* You can adjust width according to your requirement */
+    height: 315px; /* Height calculated to maintain 16:9 aspect ratio (560 / 16 * 9) */
     display: flex;
     justify-content: center;
-    margin-inline: auto;
+    margin: 0 auto; /* Shortened margin property */
     background-color: black;
 }
+
 
 .controls {
     padding-bottom: 12px;
