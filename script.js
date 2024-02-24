@@ -1,3 +1,33 @@
+ function copyCode() {
+
+        var codeElement = document.getElementById('code');
+
+        var codeText = codeElement.innerText;
+
+
+
+        var textarea = document.createElement('textarea');
+
+        textarea.value = codeText;
+
+        document.body.appendChild(textarea);
+
+
+
+        textarea.select();
+
+        document.execCommand('copy');
+
+
+
+        document.body.removeChild(textarea);
+
+
+
+        alert('Code copied to clipboard!');
+
+    }
+
 const playPauseBtn = document.querySelector(".play-pause-btn");
 const theaterBtn = document.querySelector(".theater-btn");
 const fullScreenBtn = document.querySelector(".full-screen-btn");
