@@ -5,7 +5,51 @@
 body {
     margin: 0;
 }
+        #code-container {
 
+            background-color: #000;
+
+            border: 1px solid #ccc;
+
+            padding: 10px;
+
+            margin-bottom: 20px;
+
+            position: relative;
+
+        }
+
+
+
+        #copy-button {
+
+            position: absolute;
+
+            top: 5px;
+
+            right: 5px;
+
+            cursor: pointer;
+
+            background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibh71jyjIm5N_FkuwL29epYsXgFFoXobUNPOgWP12rOaAOlr2Z72O8bdBlctL8A6cT9VcERKpLH2_nxqcoJPG3ByssfDlGI1eNO3kTscBUfcripoJNbAPo3zJbo-FBpDzQfKlww9h6-s0W_8ArpNNVAPrNnb3txk6DnXfkUiPa3xz_KD89Kh741KCSFWE/s225/copy.png') no-repeat;
+
+            background-size: contain;
+
+            width: 30px;
+
+            height: 30px;
+
+            border: none;
+
+        }
+
+
+
+        #code {
+
+            color: white;
+
+        }
 .video-container {
     position: relative;
     width: 560px; /* You can adjust width according to your requirement */
